@@ -4,7 +4,7 @@ require("dotenv").config();
 const pool = new Pool({
   host: "localhost",
   user: "postgres",
-  password: "Kamenashi30",
+  password: "44182",
   database: "softjobs",
   allowExitOnIdle: true,
 });
