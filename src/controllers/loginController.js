@@ -11,7 +11,7 @@ const loginUser = async (req, res) => {
 
     if (!user) {
       res.status(404).json({
-        message: "Error, no te has logrado registrar",
+        message: "Error, No haz sido registrado",
         code: 404,
       });
 
@@ -29,7 +29,7 @@ const loginUser = async (req, res) => {
 
     const token = await getJwtToken(user);
     res.status(200).json({
-      message: `Inicio de sesión exitoso, bienvenid@`,
+      message: `Bienvenido, has iniciado sesion con exito`,
       code: 200,
       token,
     });

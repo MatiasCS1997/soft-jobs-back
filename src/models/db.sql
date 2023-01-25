@@ -1,5 +1,7 @@
-
+-- Creando la Base de Datos
 CREATE DATABASE softjobs;
+
+-- Accediendo a la Base de Datos
 \c softjobs;
 
 CREATE TABLE usuarios ( id SERIAL, email VARCHAR(50) NOT NULL, password

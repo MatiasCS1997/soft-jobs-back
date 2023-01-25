@@ -1,4 +1,4 @@
-Estudiante:
-Matías Stuardo
+Trabajo desafío Latam:
+Yarenla Stuardo
 
-link del front: https://github.com/MatiasCS1997/soft-jobs-front
+*Front agregado a este link : https://github.com/YareStu30/desafio-soft-jobs-front
